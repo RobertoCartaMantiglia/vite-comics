@@ -63,11 +63,12 @@ export default {
 
 <style lang="scss" scoped>
 header {
-    height: 100px;
+    height: 120px;
 }
 
 div img {
     width: 30%;
+    align-self: center;
 }
 
 nav ul {
