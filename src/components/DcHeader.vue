@@ -1,5 +1,42 @@
-<script setup>
-
+<script>
+export default {
+    data() {
+        return {
+            navItems: [
+                {
+                    text: 'Characters'
+                },
+                {
+                    text: 'Comics'
+                },
+                {
+                    text: 'Movies'
+                },
+                {
+                    text: 'TV'
+                },
+                {
+                    text: 'Games'
+                },
+                {
+                    text: 'Collectibles'
+                },
+                {
+                    text: 'Videos'
+                },
+                {
+                    text: 'Fans'
+                },
+                {
+                    text: 'News'
+                },
+                {
+                    text: 'Shop'
+                },
+            ]
+        }
+    }
+}
 </script>
 
 <template>
@@ -13,15 +50,8 @@
                 <div class="col-8">
                     <nav>
                         <ul class="d-flex">
-                            <li>characters</li>
-                            <li>comics</li>
-                            <li>tv</li>
-                            <li>games</li>
-                            <li>collectibles</li>
-                            <li>videos</li>
-                            <li>fans</li>
-                            <li>news</li>
-                            <li>shop</li>
+                            <li v-for="navItem in navItems">{{ navItem.text }}</li>
+
                         </ul>
                     </nav>
                 </div>
