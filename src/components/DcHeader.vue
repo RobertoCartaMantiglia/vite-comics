@@ -31,7 +31,7 @@
 
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
     height: 100px;
 }
@@ -43,8 +43,11 @@ div img {
 nav ul {
     list-style-type: none;
 
-    nav li {
+
+    li {
         padding: 1rem;
+        text-transform: uppercase;
+        align-items: center;
     }
 
 }
