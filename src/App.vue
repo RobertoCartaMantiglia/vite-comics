@@ -4,6 +4,14 @@ import DcMain from './components/DcMain.vue';
 import DcFooter from './components/DcFooter.vue';
 </script>
 
+export default {
+ components: {
+  DcHeader,
+  DcMain,
+  DcFooter
+ }
+}
+
 <template>
 
   <DcHeader />
