@@ -4,7 +4,7 @@
 
 <template>
 
-    <h1>
+    <h1 class="text-warning">
         Dc Comics
     </h1>
 

@@ -9,8 +9,11 @@ import DcFooter from './components/DcFooter.vue';
   <DcHeader />
   <DcMain />
   <DcFooter />
+
 </template>
 
-<style scoped>
-
+<style lang="scss">
+@use './styles/general.scss' as *;
+@use './styles/partials/variables.scss' as *;
+@use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
 </style>
