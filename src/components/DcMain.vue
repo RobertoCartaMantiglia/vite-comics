@@ -4,9 +4,9 @@
 
 <template>
 
-    <h1>
-        Dc Comics
-    </h1>
+    <h2>
+        contenuto main
+    </h2>
 
 </template>
 
