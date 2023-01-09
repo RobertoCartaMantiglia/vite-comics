@@ -9,7 +9,7 @@
         <section class="first-section">
             <div class="container">
                 <div class="row align-center">
-                    <div class="col-6">
+                    <div class="col-6 ">
                         <h2>content goes here!</h2>
                     </div>
                 </div>
