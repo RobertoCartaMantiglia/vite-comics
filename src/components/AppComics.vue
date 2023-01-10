@@ -11,10 +11,10 @@ export default {
 </script>
 
 <template>
-    <div class="col-2 p-3">
+    <div class="col-2 p-4">
         <img :src="comicsPath" alt="path">
         <h4>{{ comicsSeries }}</h4>
-        <p>{{ comicsPrice }}</p>
+        <p class="fs-5">{{ comicsPrice }}</p>
     </div>
 </template>
 
