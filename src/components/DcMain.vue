@@ -7,7 +7,9 @@ export default {
 <template>
 
     <main>
+        <section class="jumbotron">
 
+        </section>
         <section class="first-section">
             <div class="container">
                 <div class="row align-center">
@@ -34,14 +36,9 @@ export default {
 
 <style lang="scss" scoped>
 main {
-    height: 300px;
+    // height: 300px;
     color: white;
     font-size: 2rem;
-}
-
-section {
-    height: calc(300px / 2);
-
 }
 
 .first-section {
@@ -50,5 +47,13 @@ section {
 
 .second-section {
     background-color: #0282f9;
+    height: 100px;
+}
+
+.jumbotron {
+    height: 350px;
+    background-image: url("../assets/imgs/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 </style>
