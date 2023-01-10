@@ -2,18 +2,19 @@
 export default {
     name: 'AppComics',
     props: [
-        'path',
+        'comicsPath',
         'comicsPrice',
-        'series',
-        'price'
+        'comicsSeries',
+        'comicsPrice'
     ]
 }
 </script>
 
 <template>
     <div class="col-2 p-3">
-        <img :src="path" alt="path">
-        <h4></h4>
+        <img :src="comicsPath" alt="path">
+        <h4>{{ comicsSeries }}</h4>
+        <p>{{ comicsPrice }}</p>
     </div>
 </template>
 

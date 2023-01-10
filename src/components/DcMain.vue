@@ -98,8 +98,8 @@ export default {
         <section class="first-section">
             <div class="container">
                 <div class="row align-center">
-                    <AppComics v-for="comics in comicsList " :path="comics.thumb" :comicsPrice="comics.price"
-                        :series="comics.series" :type="comics.type" />
+                    <AppComics v-for="comics in comicsList " :comicsPath="comics.thumb" :comicsPrice="comics.price"
+                        :comicsSeries="comics.series" :comicsType="comics.type" />
                 </div>
             </div>
         </section>
