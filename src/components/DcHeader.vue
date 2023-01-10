@@ -74,7 +74,6 @@ div img {
 nav ul {
     list-style-type: none;
 
-
     li {
         padding: 1rem;
         line-height: 60px;

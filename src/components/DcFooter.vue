@@ -70,10 +70,26 @@ export default {
             <div class="container">
                 <div class="row align-center">
                     <div class="col-6">
-
+                        <button class="p-2">
+                            Sign-up now!
+                        </button>
                     </div>
-                    <div class="col-6">
-
+                    <div class="col-6 d-flex">
+                        <h3 class="text-prymary">FOLLOW US!</h3>
+                        <ul class="d-flex">
+                            <li>
+                                <img src="../assets/imgs/footer-facebook.png" alt="">
+                            </li>
+                            <li>
+                                <img src="../assets/imgs/footer-periscope.png" alt="">
+                            </li>
+                            <li>
+                                <img src="../assets/imgs/footer-pinterest.png" alt="">
+                            </li>
+                            <li>
+                                <img src="../assets/imgs/footer-youtube.png" alt="">
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -84,7 +100,14 @@ export default {
 
 <style lang="scss" scoped>
 footer {
-    // height: calc(100vh - 420px);
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 0.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
 
     .first-section {
 
@@ -98,16 +121,10 @@ footer {
             font-weight: 700;
         }
 
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-            padding-top: 1.5rem;
-            padding-bottom: 1rem;
 
-            li {
-                color: #737d80;
-                font-size: 0.9rem;
-            }
+        li {
+            color: #737d80;
+            font-size: 0.9rem;
         }
 
         .dc-logo-container {
@@ -122,6 +139,25 @@ footer {
     .second-section {
         height: 100px;
         background-color: #303030;
+
+        button {
+            margin-top: 2rem;
+            background: none;
+            color: white;
+            text-transform: uppercase;
+            border: 1px solid #0282f9;
+            font-weight: bolder;
+        }
+
+        h3 {
+            margin-top: 2rem;
+            color: #0282f9;
+            font-weight: 700;
+        }
+
+        li {
+            margin-left: 1.5rem;
+        }
     }
 }
 </style>

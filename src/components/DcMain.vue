@@ -3,7 +3,7 @@ import AppComics from './AppComics.vue';
 
 export default {
     components: {
-        AppComics
+        AppComics,
     },
 
     data() {
@@ -92,7 +92,6 @@ export default {
 
     <main>
         <section class="jumbotron">
-
         </section>
         <section class="first-section">
             <div class="container">
