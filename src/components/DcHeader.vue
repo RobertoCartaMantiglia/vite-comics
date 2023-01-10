@@ -68,7 +68,7 @@ header {
 
 div img {
     width: 30%;
-    align-self: center;
+    margin-top: 0.5rem;
 }
 
 nav ul {
@@ -77,8 +77,8 @@ nav ul {
 
     li {
         padding: 1rem;
+        line-height: 60px;
         text-transform: uppercase;
-        align-items: center;
     }
 
 }

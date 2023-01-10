@@ -1,5 +1,7 @@
 <script>
+export default {
 
+}
 </script>
 
 <template>
@@ -82,11 +84,10 @@
 
 <style lang="scss" scoped>
 footer {
-    height: calc(100vh - 420px);
+    // height: calc(100vh - 420px);
 
     .first-section {
-        height: 75%;
-        width: 100%;
+
         background-image: url("../assets/imgs/footer-bg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -101,6 +102,7 @@ footer {
             list-style-type: none;
             padding-left: 0;
             padding-top: 1.5rem;
+            padding-bottom: 1rem;
 
             li {
                 color: #737d80;
@@ -118,7 +120,7 @@ footer {
     }
 
     .second-section {
-        height: 25%;
+        height: 100px;
         background-color: #303030;
     }
 }
