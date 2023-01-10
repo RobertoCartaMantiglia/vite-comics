@@ -3,7 +3,6 @@ import AppComics from './AppComics.vue';
 
 export default {
     components: {
-        name: "AppComics",
         AppComics
     },
 
